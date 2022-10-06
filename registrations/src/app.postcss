@@ -1,4 +1,42 @@
 /* Write your global styles here, in PostCSS syntax */
 @tailwind base;
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
+
+* {
+	font-family: 'Nunito', sans-serif !important;
+	scroll-behavior: smooth !important;
+}
+
+.toast-err {
+	--toastBackground: hsl(var(--er));
+	--toastBarBackground: hsl(var(--erc, var(--nc)));
+}
+
+.toast-warn {
+	--toastBackground: hsl(var(--wa));
+	--toastBarBackground: hsl(var(--wac, var(--nc)));
+}
+
+.toast-info {
+	--toastBackground: hsl(var(--in));
+	--toastBarBackground: hsl(var(--inc, var(--nc)));
+}
+
+.toast-success {
+	--toastBackground: hsl(var(--su));
+	--toastBarBackground: hsl(var(--suc, var(--nc)));
+}
+
+html {
+	height: -webkit-fill-available; /* We have to fix html height */
+	min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh;
+	min-height: -webkit-fill-available;
+}
+
+

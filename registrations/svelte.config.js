@@ -10,7 +10,11 @@ const config = {
     })],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		alias: {
+			'_': './src/assets',
+			'_/*': './src/assets/*',
+		}
 	}
 };
 

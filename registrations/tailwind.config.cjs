@@ -8,6 +8,9 @@ const config = {
   theme: {
     extend: {}
   },
+  daisyui: {
+    themes: ['night']
+  },
 
   plugins: [forms, typography, daisyui]
 };
