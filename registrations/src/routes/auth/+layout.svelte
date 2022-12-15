@@ -17,6 +17,3 @@
 		background-repeat: no-repeat;
 	}
 </style>
-
-
-<slot></slot>

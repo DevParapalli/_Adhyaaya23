@@ -134,7 +134,7 @@
 	in:fade={{ duration: 250, delay: 250 }}
 	out:fly={{ x: -200, duration: 250 }}
 	on:submit|preventDefault={submit}
-	class="container form-control max-w-xs rounded-3xl border-2 border-[#fb6340] bg-base-200 p-6 transition-all duration-500 focus-within:border-[#f5365c]">
+	class="container form-control md:max-w-md max-w-xs rounded-3xl border-2 border-[#fb6340] bg-base-200 p-6 transition-all duration-500 focus-within:border-[#f5365c]">
 	<div class="grid grid-flow-row grid-cols-2 gap-4">
 		<!-- <button on:click|preventDefault={() => {}} class="btn btn-outline "><Icon style="color: #555555;" icon="simple-icons:apple" /></button> -->
 		<button on:click|preventDefault={github} class="btn btn-outline "><Icon class="text-3xl text-[#fafbfc] [font-size:2rem]" icon="simple-icons:github" /></button>
